@@ -22,12 +22,12 @@ header h1{
     border-radius: 26px;
 }
 
-.banner{
+.bannera{
     position: relative;
 
 }
 
-.banner img{
+.bannera img{
     max-width: 100%;
 }
 
@@ -142,7 +142,7 @@ p::selection{
 
 @media screen and (max-width: 1400px){
 
-    .banner .welcome h2{
+    .bannera .welcome h2{
         font-size: 60px;
     }
 
@@ -153,14 +153,14 @@ p::selection{
 
 @media screen and (max-width: 960px){
 
-    .banner .welcome h2{
+    .bannera .welcome h2{
         font-size: 40px;
     }
 }
 
 @media screen and (max-width: 700px){
 
-    .banner .welcome{
+    .bannera .welcome{
         position: relative;
         text-align: center;
         padding: 10px;
@@ -168,7 +168,7 @@ p::selection{
     .banner .welcome br{
         display: none;
     }
-    .banner .welcome h2{
+    .bannera .welcome h2{
         font-size: 25px;
     }
     .banner .welcome span{
