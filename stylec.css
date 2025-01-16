@@ -31,11 +31,11 @@ header h1{
     max-width: 100%;
 }
 
-.banner h2{
+.bannerc h2{
     font-size: 74px;
 }
 
-.banner h2 span{
+.bannerc h2 span{
     font-size: 1.3em;
 }
 
@@ -166,7 +166,7 @@ p::selection{
 
 @media screen and (max-width: 1400px){
 
-    .banner .welcome h2{
+    .bannerc .welcome h2{
         font-size: 60px;
     }
 
@@ -184,18 +184,18 @@ p::selection{
 
 @media screen and (max-width: 700px){
 
-    .banner .welcome{
+    .bannerc .welcome{
         position: relative;
         text-align: center;
         padding: 10px;
     }
-    .banner .welcome br{
+    .bannerc .welcome br{
         display: none;
     }
-    .banner .welcome h2{
+    .bannerc .welcome h2{
         font-size: 25px;
     }
-    .banner .welcome span{
+    .bannerc .welcome span{
         font-size: 1em;
     }
     .images li{
