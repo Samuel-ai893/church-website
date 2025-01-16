@@ -22,16 +22,16 @@ header h1{
     border-radius: 26px;
 }
 
-.banner{
+.bannerh{
     position: relative;
 
 }
 
-.banner img{
+.bannerh img{
     max-width: 100%;
 }
 
-.banner .welcome{
+.bannerh .welcome{
     background-color: hsl(36, 91%, 50%);
     color: white;
     padding: 30px;
@@ -40,12 +40,8 @@ header h1{
     top: 30px;
 }
 
-.banner h2{
+.bannerh h2{
     font-size: 74px;
-}
-
-.banner h2 span{
-    font-size: 1.3em;
 }
 
 nav{
@@ -192,7 +188,7 @@ p::selection{
 
 @media screen and (max-width: 1400px){
 
-    .banner .welcome h2{
+    .bannerh .welcome h2{
         font-size: 60px;
     }
 
@@ -203,26 +199,23 @@ p::selection{
 
 @media screen and (max-width: 960px){
 
-    .banner .welcome h2{
+    .bannerh .welcome h2{
         font-size: 40px;
     }
 }
 
 @media screen and (max-width: 700px){
 
-    .banner .welcome{
+    .bannerh .welcome{
         position: relative;
         text-align: center;
         padding: 10px;
     }
-    .banner .welcome br{
+    .bannerh .welcome br{
         display: none;
     }
-    .banner .welcome h2{
+    .bannerh .welcome h2{
         font-size: 25px;
-    }
-    .banner .welcome span{
-        font-size: 1em;
     }
     .images li{
         width: 100%;
